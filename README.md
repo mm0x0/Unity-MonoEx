@@ -15,7 +15,8 @@ bool isDouble = MonoEx.DoubleComponentInScene<T> ()
 ```
 
 ##### 問題点
-どれもFindObjectsOfType \<T\>を使ってるので重そう
+ * どれもFindObjectsOfType \<T\>を使ってるので重そう
+ * FindObjectsOfTypeは対象が非アクティブだと検索しない
   
   
 #### GameObjectEx
